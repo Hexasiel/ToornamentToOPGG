@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "version": "1.1",
+  "name": "ToornamentToOPGG",
+  "author": "Hexasiel",
+  "description": "Generate OPGG links from toornament player page",
+  "action": {
+    "default_icon": {
+      "128": "ToornamentToOPGG_Logo.png"
+
+    }
+  },
+  "content_scripts": [
+    {
+      "js": [ "main.js" ],
+      "matches": [ "https://play.toornament.com/en_US/tournaments/*/matches/*/players", "https://play.toornament.com/de/tournaments/*/matches/*/players" ]
+    }
+  ],
+  "host_permissions": [
+    "https://play.toornament.com/en_US/tournaments/*/matches/*/players",
+    "https://play.toornament.com/de/tournaments/*/matches/*/players"
+  ],
+  "permissions": [
+    "tabs", "activeTab"
+  ]
+}
