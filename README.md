@@ -2,9 +2,7 @@
 A simple Browser Extension which lets you automatically generate OP.GG links from Toornament Player pages
 
 Installation: 
-
 - Head to the opera extensions tab (Ctrl + Shift + E)
-- Activate Developer Mode (Top right corner)
 - Drag the ToornamentToOPGG.crx file into your browser
 - Hit the install-button
 
