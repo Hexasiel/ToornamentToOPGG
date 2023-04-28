@@ -9,7 +9,8 @@ A simple Browser Extension which lets you automatically generate OP.GG links fro
 
 ### Chrome
 - Head to the chrome extensions tab ```chrome://extensions/```
-- Drag the ToornamentToOPGG folder into your browser
+- Turn on developer mode in the upper right corner
+- Drag the ToornamentToOPGG folder into your browser or click on the **Load unpacked** button and select the folder that way
 
 ## Usage:
 
