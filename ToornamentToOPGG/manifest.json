@@ -13,12 +13,11 @@
   "content_scripts": [
     {
       "js": [ "main.js" ],
-      "matches": [ "https://play.toornament.com/en_US/tournaments/*/matches/*/players", "https://play.toornament.com/de/tournaments/*/matches/*/players" ]
+      "matches": [ "https://play.toornament.com/*/tournaments/*/matches/*/players" ]
     }
   ],
   "host_permissions": [
-    "https://play.toornament.com/en_US/tournaments/*/matches/*/players",
-    "https://play.toornament.com/de/tournaments/*/matches/*/players"
+    "https://play.toornament.com/*/tournaments/*/matches/*/players"
   ],
   "permissions": [
     "tabs", "activeTab"
